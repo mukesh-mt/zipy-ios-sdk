@@ -36,7 +36,6 @@ let package = Package(
         .target(
             name: mainTargetName,
             dependencies: [
-                .product(name: "SwiftProtobuf", package: "swift-protobuf"),
                 .target(name: binaryTargetName)
             ],
             path: "Sources/\(mainTargetName)"
