@@ -1,5 +1,4 @@
 import Foundation
-import SwiftProtobuf
 @_exported import ZipyiOS
 
 // This is the main entry point that ensures proper linking of all dependencies
